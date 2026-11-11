@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clock App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="app">
+        <h1>Clock App</h1>
+
+        
+        <section id="clock" class="card">
+            <h2>Clock</h2>
+            <div class="display" id="clockTime">00:00:00</div>
+            <p id="clockDate"></p>
+        </section>
+
+        <div class="row">
+           
+            <section id="timer" class="card">
+                <h2>Timer</h2>
+                <div class="inputs">
+                    <input type="number" id="timerHour" min="0" value="0">
+                    <span>hr</span>
+                    <input type="number" id="timerMin" min="0" max="59" value="0">
+                    <span>min</span>
+                    <input type="number" id="timerSec" min="0" max="59" value="0">
+                    <span>sec</span>
+                </div>
+                <div class="display small" id="timerDisplay">00:00:00</div>
+                <div class="buttons">
+                    <button id="timerStart">Start</button>
+                    <button id="timerPause">Pause</button>
+                    <button id="timerReset">Reset</button>
+                </div>
+                <p id="timerMsg"></p>
+            </section>
+
+            
+            <section id="stopwatch" class="card">
+                <h2>Stopwatch</h2>
+                <div class="display small" id="swDisplay">00:00.00</div>
+                <div class="buttons">
+                    <button id="swStart">Start</button>
+                    <button id="swStop">Stop</button>
+                    <button id="swReset">Reset</button>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
