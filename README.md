@@ -18,11 +18,8 @@ A simple Clock App with a live clock, a countdown timer and a stopwatch. Built w
 3. Clock, Timer and Stopwatch are all shown on one page.
 
 ## Author
-- **Name:** YOUR NAME
-- **Roll No:** YOUR ROLL NUMBER
-- **Course:** B.Tech CSE
-- **College:** YOUR COLLEGE NAME
-- **Submitted to:** SIR'S NAME
+- **Name:** Kanak Prajapati
+
 
 ## Project Structure
 ```
